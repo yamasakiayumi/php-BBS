@@ -1,0 +1,40 @@
+/* body全体のスタイル */
+body {
+background-color: #99cc33;
+}
+
+ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+ul li.post {
+    margin-bottom: 40px;
+}
+label {
+    margin-right: 10px;
+    width:100px;
+    float: left;
+}
+
+
+/* コンテナのスタイル */
+/* 文字 左揃えver */
+div.container {
+	background-color: #ffffff;
+	padding: 15px 15px;
+	margin: 200px 200px;
+	text-align: left;
+	border: dashed 1px #d3d3d3;
+	font-family: Verdana, Roboto, "Droid Sans", "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
+}
+b{
+color:#003300;
+}
+a{
+	text-decoration:none;
+	color:#003300;
+}
+a:visited {
+	text-decoration:none;
+	color:#003300;
+}
